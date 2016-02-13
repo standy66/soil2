@@ -107,6 +107,10 @@
 
  */
 
+#ifdef _MSC_VER
+#define inline __inline
+#endif
+
 static const int kModifierTable[] = {
 /* 0 */2, 8, -2, -8,
 /* 1 */5, 17, -5, -17,
