@@ -11,6 +11,8 @@ set(SRC_FILES
 	src/SOIL2/image_helper.c
 )
 
+set_source_files_properties(${SRC_FILES} PROPERTIES LANGUAGE CXX)
+
 set(HEADER_FILES
 	src/SOIL2/SOIL2.h
 	src/SOIL2/etc1_utils.h
