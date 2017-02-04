@@ -45,3 +45,7 @@ install(FILES src/SOIL2/SOIL2.h DESTINATION include)
 install(EXPORT soilTargets FILE soilTargets.cmake			
 	DESTINATION "lib/cmake/soil"
 	NAMESPACE SOIL::)
+
+install(FILES soilConfig.cmake
+    DESTINATION "lib/cmake/soil"
+)
